@@ -1,5 +1,10 @@
 # Webpack code splitter plugin
 
+## Install
+
+`npm install --save webpack-code-splitter`
+
+
 ```js
 import WebpackCodeSplitter from 'webpack-code-splitter';
 
