@@ -1,0 +1,20 @@
+{
+  "name": "webpack-code-splitter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"prepublish": "./node_modules/.bin/babel -d ./ ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankland/webpack-code-splitter.git"
+  },
+  "author": "tuchk4 <valeriy.sorokobatko@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frankland/webpack-code-splitter/issues"
+  },
+  "homepage": "https://github.com/frankland/webpack-code-splitter#readme"
+}
