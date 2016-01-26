@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "./node_modules/.bin/babel -d ./ ./src"
+    "prepublish": "./node_modules/.bin/babel -d ./ ./src",
+    "dev": "./node_modules/.bin/babel -d ./ ./src --watch"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/frankland/webpack-code-splitter/issues"
   },
-  "homepage": "https://github.com/frankland/webpack-code-splitter#readme"
+  "homepage": "https://github.com/frankland/webpack-code-splitter#readme",
+  "dependencies": {
+    "babel": "^6.3.26",
+    "babel-cli": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13"
+  }
 }
