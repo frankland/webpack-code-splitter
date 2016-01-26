@@ -1,2 +1,2 @@
-import WebpackCodeSplitter from './webapack-code-splitter';
+import WebpackCodeSplitter from './webpack-code-splitter';
 module.exports = WebpackCodeSplitter;
