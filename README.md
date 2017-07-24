@@ -1,5 +1,7 @@
 # Webpack code splitter plugin
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tuchk4/webpack-code-splitter.svg)](https://greenkeeper.io/)
+
 ## Install
 
 `npm install --save webpack-code-splitter`
